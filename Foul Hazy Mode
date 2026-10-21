@@ -107,7 +107,7 @@ entity:SetCallback("OnDamagePlayer", function(newHealth: number)
     end
 
     -- ====== GITHUB CONFIGURATION ====== --
-    local SOUND_URL = "https://github.com/gonzalezmarrufoalexandersasuke-commits/DepthJumpscare/raw/refs/heads/main/SILENCE%20jumpscare%20Concept%20%20doors%20roblox.mp3"
+    local SOUND_URL = "https://github.com/gonzalezmarrufoalexandersasuke-commits/Hazy-Mode-Sound-Entities/raw/refs/heads/main/Doors%20hazy%20mode%20Foul%20Jumpscare%20.mp3"
     local IMAGE_ID = "rbxassetid://96200042371140" -- Keep as rbxassetid for better performance
     local FILE_NAME = "foul_jumpscare.mp3"
     -- =================================== --
@@ -128,7 +128,7 @@ entity:SetCallback("OnDamagePlayer", function(newHealth: number)
     local flash = Instance.new("Frame")
     flash.Size = UDim2.new(1, 0, 1, 0)
     flash.BorderSizePixel = 0
-    flash.BackgroundColor3 = Color3.new(0, 0, 255)
+    flash.BackgroundColor3 = Color3.new(128, 128, 128)
     flash.ZIndex = 10
     flash.Parent = gui
 
