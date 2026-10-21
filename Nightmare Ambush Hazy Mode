@@ -7,7 +7,7 @@ local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = Spawner:Create({
 	Entity = {
 		Name = "Nightmare Ambush",
-		Asset = "rbxassetid://12569432079",
+		Asset = "rbxassetid://109143871922489",
 		HeightOffset = 0
 	},
 	Lights = {
